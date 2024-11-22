@@ -1,0 +1,17 @@
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\bin\Debug\net8.0\CrayonCloudSale.Infrastructure.deps.json
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\bin\Debug\net8.0\CrayonCloudSale.Infrastructure.runtimeconfig.json
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\bin\Debug\net8.0\CrayonCloudSale.Infrastructure.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\bin\Debug\net8.0\CrayonCloudSale.Infrastructure.pdb
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\bin\Debug\net8.0\CrayonCloudSale.Core.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\bin\Debug\net8.0\CrayonCloudSale.Core.pdb
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.csproj.AssemblyReference.cache
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.AssemblyInfoInputs.cache
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.AssemblyInfo.cs
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.csproj.CoreCompileInputs.cache
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.csproj.CopyComplete
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\refint\CrayonCloudSale.Infrastructure.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.pdb
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\CrayonCloudSale.Infrastructure.genruntimeconfig.cache
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Infrastructure\obj\Debug\net8.0\ref\CrayonCloudSale.Infrastructure.dll

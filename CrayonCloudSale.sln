@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrayonCloudSale.Api", "CrayonCloudSale.Api\CrayonCloudSale.Api.csproj", "{FF27747D-9B7E-44CF-A65F-E30541B872A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrayonCloudSale.Infrastructure", "CrayonCloudSale.Infrastructure\CrayonCloudSale.Infrastructure.csproj", "{8BEB705B-5883-428E-A376-A6E5E3F18DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrayonCloudSale.Core", "CrayonCloudSale.Core\CrayonCloudSale.Core.csproj", "{5638EBC1-2F8D-4073-B7A8-6F5E49B7ED8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrayonCloudSale.Services", "CrayonCloudSale.Services\CrayonCloudSale.Services.csproj", "{6CA11003-8D20-4425-8127-489DBC219096}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF27747D-9B7E-44CF-A65F-E30541B872A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF27747D-9B7E-44CF-A65F-E30541B872A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF27747D-9B7E-44CF-A65F-E30541B872A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF27747D-9B7E-44CF-A65F-E30541B872A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEB705B-5883-428E-A376-A6E5E3F18DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEB705B-5883-428E-A376-A6E5E3F18DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEB705B-5883-428E-A376-A6E5E3F18DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEB705B-5883-428E-A376-A6E5E3F18DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5638EBC1-2F8D-4073-B7A8-6F5E49B7ED8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5638EBC1-2F8D-4073-B7A8-6F5E49B7ED8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5638EBC1-2F8D-4073-B7A8-6F5E49B7ED8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5638EBC1-2F8D-4073-B7A8-6F5E49B7ED8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA11003-8D20-4425-8127-489DBC219096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA11003-8D20-4425-8127-489DBC219096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA11003-8D20-4425-8127-489DBC219096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA11003-8D20-4425-8127-489DBC219096}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB3B0B57-32BD-4128-876D-9993F2502775}
+	EndGlobalSection
+EndGlobal
