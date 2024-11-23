@@ -9,6 +9,4 @@ public class AzureConfiguration
     public string CcpGetApiUrl { get; set; } = string.Empty;
 
     public string CcpOrderApiUrl { get; set; } = string.Empty;
-
-    public string CcpClientName { get; set; } = string.Empty;
 }

@@ -30,6 +30,7 @@ namespace CrayonCloudSale.Api.Controllers
                 return Ok(JsonSerializer.Serialize(responseObj));
             }
 
+            _logger.LogError($"No customer with id {customerId} found");
             return BadRequest("No customer found");
         }
     }

@@ -35,34 +35,41 @@ public class CcpService:ICcpService
     }
 
     public async Task<List<Software>> GetSoftwareServices() {
-        //var client = _httpClientFactory.CreateClient(_azureConfiguration.CcpClientName);
+        //EXAMPLE OF HTTP Request toward ccp
+        //var client = _httpClientFactory.CreateClient();
         //var response = await client.GetAsync(_azureConfiguration.CcpGetApiUrl);
 
-        //var parsedResponse = await response.Content.ReadFromJsonAsync<List<Software>>();
+        //if (response.IsSuccessStatusCode)
+        //{
+        //    return parsedResponse;
+        //}
 
         return _softwareList;
     }
 
     public async Task OrderSoftware(int accountId, string serviceName, int quantity)
     {
-        //var client = _httpClientFactory.CreateClient(_azureConfiguration.CcpClientName);
-        //var response = await client.GetAsync(_azureConfiguration.CcpOrderApiUrl);
-        //perform http post method and include params in request body
+        //EXAMPLE OF HTTP Request toward ccp
+        //var client = _httpClientFactory.CreateClient();
+        //var response = await client.PostAsJsonAsync(_azureConfiguration.CcpOrderApiUrl, new { accountId, serviceName, quantity });
 
-        var account = (await _unitOfWork.AccountRepository.GetAsyncWithoutTracking(a => a.Id == accountId, null, a => a.PurchasedSoftwares)).FirstOrDefault();
+        //if (response.IsSuccessStatusCode)
+        //{
+            var account = (await _unitOfWork.AccountRepository.GetAsyncWithoutTracking(a => a.Id == accountId, null, a => a.PurchasedSoftwares)).FirstOrDefault();
 
-        if (account == null)
-        {
-            throw new ArgumentException($"Account with id {accountId} not found.");            
-        }
+            if (account == null)
+            {
+                throw new ArgumentException($"Account with id {accountId} not found.");
+            }
 
-        if (account.PurchasedSoftwares.Any(x => x.Name == serviceName))
-        {
-            throw new InvalidCastException($"Account with id {accountId} already purchased license for {serviceName}");
-        }
+            if (account.PurchasedSoftwares.Any(x => x.Name == serviceName))
+            {
+                throw new InvalidCastException($"Account with id {accountId} already purchased license for {serviceName}");
+            }
 
-        account.PurchasedSoftwares.Add(new PurchasedSoftware { Name = serviceName, Quantity = quantity, State = State.Active, CreateDate = DateTime.Now, ChangeDate = DateTime.Now });
+            account.PurchasedSoftwares.Add(new PurchasedSoftware { Name = serviceName, Quantity = quantity, State = State.Active, CreateDate = DateTime.Now, ChangeDate = DateTime.Now });
 
-        _unitOfWork.AccountRepository.Update(account);
+            _unitOfWork.AccountRepository.Update(account);
+        //}
     }
 }

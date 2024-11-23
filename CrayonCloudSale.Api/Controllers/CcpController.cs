@@ -27,7 +27,7 @@ namespace CrayonCloudSale.Api.Controllers
             {
                 return Ok(JsonSerializer.Serialize(services));
             }
-
+            _logger.LogError($"No services from ccp found");
             return BadRequest("No services found");
         }
 
@@ -35,7 +35,9 @@ namespace CrayonCloudSale.Api.Controllers
         public async Task<IActionResult> OrderSoftwareServices(int accountId, string serviceName, int quantity)
         {
             try { await _ccpService.OrderSoftware(accountId, serviceName, quantity); }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
+                _logger.LogError($"Ordering service for account with id {accountId} failed. Exception: {ex.Message}");
                 return BadRequest(ex.Message);
             }
 

@@ -30,6 +30,7 @@ namespace CrayonCloudSale.Api.Controllers
                 return Ok(JsonSerializer.Serialize(responseObj));
             }
 
+            _logger.LogError($"No account with id {accountId} found");
             return BadRequest("No account found");
         }
     }

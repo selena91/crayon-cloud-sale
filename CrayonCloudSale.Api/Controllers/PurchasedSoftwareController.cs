@@ -22,6 +22,7 @@ namespace CrayonCloudSale.Api.Controllers
             try { await _purchasedSoftwareService.CancelPurchase(purchaseId); }
             catch (Exception ex)
             {
+                _logger.LogError($"Canceling purchase with id {purchaseId} failed. Exception: {ex.Message}");
                 return BadRequest(ex.Message);
             }
 
@@ -34,6 +35,7 @@ namespace CrayonCloudSale.Api.Controllers
             try { await _purchasedSoftwareService.ChangeQuantity(purchaseId, quantity); }
             catch (Exception ex)
             {
+                _logger.LogError($"Changing quantity for purchase with id {purchaseId} failed. Exception: {ex.Message}");
                 return BadRequest(ex.Message);
             }
 
@@ -46,6 +48,7 @@ namespace CrayonCloudSale.Api.Controllers
             try { await _purchasedSoftwareService.ExtendExpiryDate(purchaseId, validTo); }
             catch (Exception ex)
             {
+                _logger.LogError($"Extending license for purchase with id {purchaseId} failed. Exception: {ex.Message}");
                 return BadRequest(ex.Message);
             }
 
