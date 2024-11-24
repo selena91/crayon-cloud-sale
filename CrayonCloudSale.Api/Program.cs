@@ -1,5 +1,6 @@
 using CrayonCloudSale.Core;
 using CrayonCloudSale.Infrastructure;
+using CrayonCloudSale.Infrastructure.Data;
 using CrayonCloudSale.Infrastructure.Services;
 using CrayonCloudSale.Services;
 using CrayonCloudSale.Services.Interfaces;
@@ -36,6 +37,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    SeedDataHelper.SeedData(app.Services);
 }
 
 app.UseHttpsRedirection();
