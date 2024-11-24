@@ -1,0 +1,17 @@
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\bin\Debug\net8.0\CrayonCloudSale.Services.deps.json
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\bin\Debug\net8.0\CrayonCloudSale.Services.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\bin\Debug\net8.0\CrayonCloudSale.Services.pdb
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\bin\Debug\net8.0\CrayonCloudSale.Core.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\bin\Debug\net8.0\CrayonCloudSale.Infrastructure.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\bin\Debug\net8.0\CrayonCloudSale.Infrastructure.pdb
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\bin\Debug\net8.0\CrayonCloudSale.Core.pdb
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\CrayonCloudSale.Services.csproj.AssemblyReference.cache
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\CrayonCloudSale.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\CrayonCloudSale.Services.AssemblyInfoInputs.cache
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\CrayonCloudSale.Services.AssemblyInfo.cs
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\CrayonCloudSale.Services.csproj.CoreCompileInputs.cache
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\CrayonCloudSale.Services.csproj.CopyComplete
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\CrayonCloudSale.Services.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\refint\CrayonCloudSale.Services.dll
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\CrayonCloudSale.Services.pdb
+C:\crayon\CrayonCloudSale\CrayonCloudSale.Services\obj\Debug\net8.0\ref\CrayonCloudSale.Services.dll
